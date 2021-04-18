@@ -1,0 +1,16 @@
+ODBC Query Tool
+(c) 2011 by Jaime de los Hoyos M.
+
+INSTALL INSTRUCTIONS
+--------------------
+
+ODBC Query Tool is a portable application; to begin using it, just extract all files from the downloaded archive into their own folder. These are the core files:
+
+odbc_qry.exe (main executable)
+odbc_qry.chm (help file)
+
+To update an existing installation, just overwrite all old files with the new ones provided in the downloaded archive. The saved connection details will be preserved.
+
+To run the application, just double click on the odbc_qry.exe file.
+
+When the user saves some connection details for the first time, a new file, named "saved connections.ini" will be generated in the same folder as the main executable. This text file contains all saved connections' details.

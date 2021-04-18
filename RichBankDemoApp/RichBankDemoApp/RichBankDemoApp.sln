@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichBankDemoApp", "RichBankDemoApp\RichBankDemoApp.csproj", "{2586346C-16BB-4DFD-B95F-E4E4B22E17A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RichBank.Infrastructure", "RichBank.Infrastructure", "{59C9373B-BCF2-4315-9721-079499A4A3A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichBank.Services", "RichBank.Services\RichBank.Services.csproj", "{55475BF4-A9E8-4CDD-8B36-9ADFCC3E2F17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E68B515E-21B6-4B54-9423-C6FC041355C9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2586346C-16BB-4DFD-B95F-E4E4B22E17A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2586346C-16BB-4DFD-B95F-E4E4B22E17A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2586346C-16BB-4DFD-B95F-E4E4B22E17A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2586346C-16BB-4DFD-B95F-E4E4B22E17A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55475BF4-A9E8-4CDD-8B36-9ADFCC3E2F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55475BF4-A9E8-4CDD-8B36-9ADFCC3E2F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55475BF4-A9E8-4CDD-8B36-9ADFCC3E2F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55475BF4-A9E8-4CDD-8B36-9ADFCC3E2F17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55475BF4-A9E8-4CDD-8B36-9ADFCC3E2F17} = {59C9373B-BCF2-4315-9721-079499A4A3A0}
+	EndGlobalSection
+EndGlobal
